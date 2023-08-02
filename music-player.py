@@ -62,3 +62,4 @@ class MusicPlayer(QWidget):
             "QSlider::handle:horizontal {background: #bb86fc; width: 14px; border: 1px solid #444; border-radius: 8px;}"
             "QSlider::handle:horizontal:hover {background: #f0f0f0; border: 1px solid #444; border-radius: 8px;}"
             "QSlider::sub-page:horizontal:disabled {background: #666666; border-color: #999;}"
+            "QSlider::handle:horizontal:disabled {background: #666666; border: 1px solid #444; border-radius: 8px;}"
