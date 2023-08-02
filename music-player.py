@@ -10,3 +10,4 @@ from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 class MusicPlayer(QWidget):
     def __init__(self):
         super().__init__()
+
