@@ -68,3 +68,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.sliderReleased.connect(self.update_position)
 
         self.musicList = QListWidget()
+
