@@ -78,3 +78,4 @@ class MusicPlayer(QWidget):
         self.config.read("mp3_player_config.ini")
         if not self.config.has_section("Music"):
             self.config.add_section("Music")
+
