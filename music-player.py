@@ -56,3 +56,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.setMinimum(0)
         self.positionSlider.setMaximum(0)
         self.positionSlider.setSingleStep(1000)
+        self.positionSlider.setStyleSheet(
