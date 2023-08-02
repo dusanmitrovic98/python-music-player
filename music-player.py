@@ -89,3 +89,4 @@ class MusicPlayer(QWidget):
         controls_layout.addWidget(self.removeButton)
         controls_layout.addWidget(self.clearButton)
         controls_layout.addWidget(self.playButton)
+        controls_layout.addWidget(self.pauseButton)
