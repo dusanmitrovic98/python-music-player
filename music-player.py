@@ -73,3 +73,4 @@ class MusicPlayer(QWidget):
         self.timeLabel.setAlignment(Qt.AlignCenter)
 
         self.statusLabel = QLabel()
+
