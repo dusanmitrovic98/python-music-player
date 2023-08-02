@@ -11,3 +11,4 @@ class MusicPlayer(QWidget):
     def __init__(self):
         super().__init__()
 
+        self.setWindowTitle("Music Player")
