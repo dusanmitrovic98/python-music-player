@@ -37,3 +37,4 @@ class MusicPlayer(QWidget):
         self.clearButton.clicked.connect(self.clear_list)
 
         self.volumeSlider = QSlider(Qt.Horizontal)
+        self.volumeSlider.setMinimum(0)
