@@ -67,3 +67,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.sliderPressed.connect(self.pause_music)
         self.positionSlider.sliderReleased.connect(self.update_position)
 
+        self.musicList = QListWidget()
