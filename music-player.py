@@ -42,3 +42,4 @@ class MusicPlayer(QWidget):
         self.volumeSlider.setValue(50)
         self.volumeSlider.setTickInterval(10)
         self.volumeSlider.setTickPosition(QSlider.TicksAbove)
+        self.volumeSlider.setStyleSheet(
