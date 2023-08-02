@@ -27,3 +27,4 @@ class MusicPlayer(QWidget):
 
         self.addButton = QPushButton("+")
         self.addButton.setFixedSize(25, 25)
+        self.addButton.clicked.connect(self.add_music)
