@@ -70,3 +70,4 @@ class MusicPlayer(QWidget):
         self.musicList = QListWidget()
 
         self.timeLabel = QLabel("00:00 / 00:00")
+        self.timeLabel.setAlignment(Qt.AlignCenter)
