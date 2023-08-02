@@ -19,3 +19,4 @@ class MusicPlayer(QWidget):
         self.playButton = QPushButton("Play")
         self.playButton.clicked.connect(self.play_music)
 
+        self.pauseButton = QPushButton("Pause")
