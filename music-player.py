@@ -75,3 +75,4 @@ class MusicPlayer(QWidget):
         self.statusLabel = QLabel()
 
         self.config = configparser.ConfigParser()
+        self.config.read("mp3_player_config.ini")
