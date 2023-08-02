@@ -29,3 +29,4 @@ class MusicPlayer(QWidget):
         self.addButton.setFixedSize(25, 25)
         self.addButton.clicked.connect(self.add_music)
 
+        self.removeButton = QPushButton("-")
