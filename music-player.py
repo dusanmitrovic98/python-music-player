@@ -5,3 +5,4 @@ from PyQt5.QtWidgets import QApplication, QWidget, QHBoxLayout, QVBoxLayout, QSl
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import Qt, QUrl, QTime, QTimer
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
+
