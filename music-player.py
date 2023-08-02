@@ -53,3 +53,4 @@ class MusicPlayer(QWidget):
         self.volumeSlider.valueChanged.connect(self.change_volume)
 
         self.positionSlider = QSlider(Qt.Horizontal)
+        self.positionSlider.setMinimum(0)
