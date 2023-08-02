@@ -87,3 +87,4 @@ class MusicPlayer(QWidget):
         controls_layout = QHBoxLayout()
         controls_layout.addWidget(self.addButton)
         controls_layout.addWidget(self.removeButton)
+        controls_layout.addWidget(self.clearButton)
