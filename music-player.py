@@ -74,3 +74,4 @@ class MusicPlayer(QWidget):
 
         self.statusLabel = QLabel()
 
+        self.config = configparser.ConfigParser()
