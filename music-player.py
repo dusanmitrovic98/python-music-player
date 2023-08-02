@@ -24,3 +24,4 @@ class MusicPlayer(QWidget):
 
         self.stopButton = QPushButton("Stop")
         self.stopButton.clicked.connect(self.stop_music)
+
