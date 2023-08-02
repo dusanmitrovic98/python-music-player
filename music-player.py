@@ -81,3 +81,4 @@ class MusicPlayer(QWidget):
 
         saved_music_list = self.config.get("Music", "Files", fallback="")
         self.musicList.addItems(saved_music_list.splitlines())
+
