@@ -41,3 +41,4 @@ class MusicPlayer(QWidget):
         self.volumeSlider.setMaximum(100)
         self.volumeSlider.setValue(50)
         self.volumeSlider.setTickInterval(10)
+        self.volumeSlider.setTickPosition(QSlider.TicksAbove)
