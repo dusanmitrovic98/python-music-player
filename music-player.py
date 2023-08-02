@@ -83,3 +83,4 @@ class MusicPlayer(QWidget):
         self.musicList.addItems(saved_music_list.splitlines())
 
         main_layout = QVBoxLayout()
+
