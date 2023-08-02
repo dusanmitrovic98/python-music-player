@@ -85,3 +85,4 @@ class MusicPlayer(QWidget):
         main_layout = QVBoxLayout()
 
         controls_layout = QHBoxLayout()
+        controls_layout.addWidget(self.addButton)
