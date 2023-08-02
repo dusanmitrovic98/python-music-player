@@ -58,3 +58,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.setSingleStep(1000)
         self.positionSlider.setStyleSheet(
             "QSlider::groove:horizontal {background: #444444; height: 8px; border-radius: 4px;}"
+            "QSlider::sub-page:horizontal {background: #bb86fc; height: 8px; border-radius: 4px;}"
