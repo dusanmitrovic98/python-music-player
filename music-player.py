@@ -54,3 +54,4 @@ class MusicPlayer(QWidget):
 
         self.positionSlider = QSlider(Qt.Horizontal)
         self.positionSlider.setMinimum(0)
+        self.positionSlider.setMaximum(0)
