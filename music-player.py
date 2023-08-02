@@ -44,3 +44,4 @@ class MusicPlayer(QWidget):
         self.volumeSlider.setTickPosition(QSlider.TicksAbove)
         self.volumeSlider.setStyleSheet(
             "QSlider::groove:horizontal {background: #444444; height: 8px; border-radius: 4px;}"
+            "QSlider::sub-page:horizontal {background: #bb86fc; height: 8px; border-radius: 4px;}"
