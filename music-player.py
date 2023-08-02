@@ -64,3 +64,4 @@ class MusicPlayer(QWidget):
             "QSlider::sub-page:horizontal:disabled {background: #666666; border-color: #999;}"
             "QSlider::handle:horizontal:disabled {background: #666666; border: 1px solid #444; border-radius: 8px;}"
         )
+        self.positionSlider.sliderPressed.connect(self.pause_music)
