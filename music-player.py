@@ -39,3 +39,4 @@ class MusicPlayer(QWidget):
         self.volumeSlider = QSlider(Qt.Horizontal)
         self.volumeSlider.setMinimum(0)
         self.volumeSlider.setMaximum(100)
+        self.volumeSlider.setValue(50)
