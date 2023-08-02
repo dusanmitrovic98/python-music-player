@@ -34,3 +34,4 @@ class MusicPlayer(QWidget):
         self.removeButton.clicked.connect(self.remove_music)
 
         self.clearButton = QPushButton("Clear")
+        self.clearButton.clicked.connect(self.clear_list)
