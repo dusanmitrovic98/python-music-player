@@ -7,3 +7,4 @@ from PyQt5.QtCore import Qt, QUrl, QTime, QTimer
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 
 
+class MusicPlayer(QWidget):
