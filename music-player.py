@@ -79,3 +79,4 @@ class MusicPlayer(QWidget):
         if not self.config.has_section("Music"):
             self.config.add_section("Music")
 
+        saved_music_list = self.config.get("Music", "Files", fallback="")
