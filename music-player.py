@@ -13,3 +13,4 @@ class MusicPlayer(QWidget):
 
         self.setWindowTitle("Music Player")
         self.setStyleSheet(
+            "background-color: #1c1c1c; color: #f0f0f0; selection-color: #f0f0f0; selection-background-color: #444444;")
