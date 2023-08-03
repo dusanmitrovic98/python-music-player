@@ -117,3 +117,4 @@ class MusicPlayer(QWidget):
                     self.musicList.addItems(mp3_files)
                 elif file_name.endswith(".mp3"):
                     self.musicList.addItem(file_name)
+            self.statusLabel.setText("Added songs to the list")
