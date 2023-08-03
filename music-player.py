@@ -108,3 +108,4 @@ class MusicPlayer(QWidget):
 
     def add_music(self):
     def add_music(self):
+        file_names, _ = QFileDialog.getOpenFileNames(
