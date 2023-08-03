@@ -160,3 +160,4 @@ class MusicPlayer(QWidget):
             self.statusLabel.setText("Resumed")
         else:
             self.statusLabel.setText("No song is playing.")
+
