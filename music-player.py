@@ -106,3 +106,4 @@ class MusicPlayer(QWidget):
         self.timer.timeout.connect(self.update_duration_and_position)
         self.timer.start(1000)
 
+    def add_music(self):
