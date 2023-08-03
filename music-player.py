@@ -104,3 +104,4 @@ class MusicPlayer(QWidget):
 
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.update_duration_and_position)
+        self.timer.start(1000)
