@@ -193,3 +193,4 @@ class MusicPlayer(QWidget):
             duration_time = QTime(0, 0).addMSecs(duration)
             current_time = QTime(0, 0).addMSecs(current_position)
 
+            self.timeLabel.setText("{}/{}".format(current_time.toString("mm:ss"), duration_time.toString("mm:ss")))
