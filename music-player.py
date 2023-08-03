@@ -102,3 +102,4 @@ class MusicPlayer(QWidget):
         self.setLayout(main_layout)
         self.show()
 
+        self.timer = QTimer(self)
