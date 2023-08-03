@@ -116,3 +116,4 @@ class MusicPlayer(QWidget):
                     mp3_files = [os.path.join(file_name, f) for f in os.listdir(file_name) if f.endswith(".mp3")]
                     self.musicList.addItems(mp3_files)
                 elif file_name.endswith(".mp3"):
+                    self.musicList.addItem(file_name)
