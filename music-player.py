@@ -170,3 +170,4 @@ class MusicPlayer(QWidget):
         self.pauseButton.setText("Pause")
         self.statusLabel.setText("Stopped")
 
+    def change_volume(self, value):
