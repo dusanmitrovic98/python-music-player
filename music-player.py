@@ -129,3 +129,4 @@ class MusicPlayer(QWidget):
             self.save_music_list()
 
     def clear_list(self):
+        self.musicList.clear()
