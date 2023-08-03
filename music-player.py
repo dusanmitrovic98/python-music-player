@@ -121,3 +121,4 @@ class MusicPlayer(QWidget):
             self.save_music_list()
 
     def remove_music(self):
+        selected_items = self.musicList.selectedItems()
