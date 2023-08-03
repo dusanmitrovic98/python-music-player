@@ -180,3 +180,4 @@ class MusicPlayer(QWidget):
         if self.mediaPlayer.state() != QMediaPlayer.PlayingState:
             self.mediaPlayer.setPosition(self.positionSlider.value())
             self.pauseButton.setText("Resume")  # Update the pauseButton text to "Resume" when the slider is released
+
