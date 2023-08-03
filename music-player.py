@@ -156,3 +156,4 @@ class MusicPlayer(QWidget):
             self.statusLabel.setText("Paused")
         elif self.mediaPlayer.state() == QMediaPlayer.PausedState:
             self.mediaPlayer.play()
+            self.pauseButton.setText("Pause")
