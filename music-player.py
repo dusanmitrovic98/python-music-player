@@ -128,3 +128,4 @@ class MusicPlayer(QWidget):
             self.statusLabel.setText("Removed song(s) from the list")
             self.save_music_list()
 
+    def clear_list(self):
