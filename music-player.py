@@ -161,3 +161,4 @@ class MusicPlayer(QWidget):
         else:
             self.statusLabel.setText("No song is playing.")
 
+    def pause_music(self):
