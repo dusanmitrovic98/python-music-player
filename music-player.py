@@ -126,3 +126,4 @@ class MusicPlayer(QWidget):
             for item in selected_items:
                 self.musicList.takeItem(self.musicList.row(item))
             self.statusLabel.setText("Removed song(s) from the list")
+            self.save_music_list()
