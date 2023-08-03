@@ -142,3 +142,4 @@ class MusicPlayer(QWidget):
 
     def play_music(self):
         selected_item = self.musicList.currentItem()
+        if selected_item:
