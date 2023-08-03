@@ -111,3 +111,4 @@ class MusicPlayer(QWidget):
         file_names, _ = QFileDialog.getOpenFileNames(
             self, "Open Files or Folders", "", "Audio Files (*.mp3);;All Files (*)")
         if file_names:
+            for file_name in file_names:
