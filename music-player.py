@@ -120,3 +120,4 @@ class MusicPlayer(QWidget):
             self.statusLabel.setText("Added songs to the list")
             self.save_music_list()
 
+    def remove_music(self):
