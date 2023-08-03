@@ -172,3 +172,4 @@ class MusicPlayer(QWidget):
 
     def change_volume(self, value):
         self.mediaPlayer.setVolume(value)
+
