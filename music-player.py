@@ -132,3 +132,4 @@ class MusicPlayer(QWidget):
         self.musicList.clear()
         self.statusLabel.setText("Cleared the list")
         self.save_music_list()
+
