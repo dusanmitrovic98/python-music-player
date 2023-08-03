@@ -112,3 +112,4 @@ class MusicPlayer(QWidget):
             self, "Open Files or Folders", "", "Audio Files (*.mp3);;All Files (*)")
         if file_names:
             for file_name in file_names:
+                if os.path.isdir(file_name):
