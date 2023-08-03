@@ -186,3 +186,4 @@ class MusicPlayer(QWidget):
         if duration >= 0:
             self.positionSlider.setMaximum(duration)
             self.update_position_slider_position(duration)
+
