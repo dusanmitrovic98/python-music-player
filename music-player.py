@@ -130,3 +130,4 @@ class MusicPlayer(QWidget):
 
     def clear_list(self):
         self.musicList.clear()
+        self.statusLabel.setText("Cleared the list")
