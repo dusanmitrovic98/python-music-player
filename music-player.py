@@ -178,3 +178,4 @@ class MusicPlayer(QWidget):
 
     def update_position(self):
         if self.mediaPlayer.state() != QMediaPlayer.PlayingState:
+            self.mediaPlayer.setPosition(self.positionSlider.value())
