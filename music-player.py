@@ -124,3 +124,4 @@ class MusicPlayer(QWidget):
         selected_items = self.musicList.selectedItems()
         if selected_items:
             for item in selected_items:
+                self.musicList.takeItem(self.musicList.row(item))
