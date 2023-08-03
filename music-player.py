@@ -164,3 +164,4 @@ class MusicPlayer(QWidget):
     def pause_music(self):
         if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
             self.mediaPlayer.pause()
+
