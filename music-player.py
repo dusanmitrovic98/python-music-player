@@ -139,3 +139,4 @@ class MusicPlayer(QWidget):
         self.config.set("Music", "Files", music_list_text)
         with open("mp3_player_config.ini", "w") as config_file:
             self.config.write(config_file)
+
