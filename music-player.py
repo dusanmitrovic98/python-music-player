@@ -107,3 +107,4 @@ class MusicPlayer(QWidget):
         self.timer.start(1000)
 
     def add_music(self):
+    def add_music(self):
