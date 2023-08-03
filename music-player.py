@@ -147,3 +147,4 @@ class MusicPlayer(QWidget):
             media_content = QMediaContent(QUrl.fromLocalFile(file_name))
             self.mediaPlayer.setMedia(media_content)
             self.mediaPlayer.play()
+            self.statusLabel.setText("Playing {}".format(file_name))
