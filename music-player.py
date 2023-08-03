@@ -134,3 +134,4 @@ class MusicPlayer(QWidget):
         self.save_music_list()
 
     def save_music_list(self):
+        music_list = [self.musicList.item(i).text() for i in range(self.musicList.count())]
