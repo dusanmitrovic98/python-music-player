@@ -188,3 +188,4 @@ class MusicPlayer(QWidget):
             self.update_position_slider_position(duration)
 
             current_position = self.mediaPlayer.position()
+            self.update_position_slider_position(current_position)
