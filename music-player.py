@@ -99,3 +99,4 @@ class MusicPlayer(QWidget):
         main_layout.addLayout(controls_layout)
         main_layout.addWidget(self.statusLabel)
 
+        self.setLayout(main_layout)
