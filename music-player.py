@@ -101,3 +101,4 @@ class MusicPlayer(QWidget):
 
         self.setLayout(main_layout)
         self.show()
+
