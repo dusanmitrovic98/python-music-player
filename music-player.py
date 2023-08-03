@@ -174,3 +174,4 @@ class MusicPlayer(QWidget):
         self.mediaPlayer.setVolume(value)
 
     def set_position(self, position):
+        self.mediaPlayer.setPosition(position)
