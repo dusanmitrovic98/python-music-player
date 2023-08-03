@@ -135,3 +135,4 @@ class MusicPlayer(QWidget):
 
     def save_music_list(self):
         music_list = [self.musicList.item(i).text() for i in range(self.musicList.count())]
+        music_list_text = "\n".join(music_list)
