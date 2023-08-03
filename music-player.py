@@ -182,3 +182,4 @@ class MusicPlayer(QWidget):
             self.pauseButton.setText("Resume")  # Update the pauseButton text to "Resume" when the slider is released
 
     def update_duration_and_position(self):
+        duration = self.mediaPlayer.duration()
