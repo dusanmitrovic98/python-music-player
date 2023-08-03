@@ -169,3 +169,4 @@ class MusicPlayer(QWidget):
         self.mediaPlayer.stop()
         self.pauseButton.setText("Pause")
         self.statusLabel.setText("Stopped")
+
