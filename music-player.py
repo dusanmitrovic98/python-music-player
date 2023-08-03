@@ -171,3 +171,4 @@ class MusicPlayer(QWidget):
         self.statusLabel.setText("Stopped")
 
     def change_volume(self, value):
+        self.mediaPlayer.setVolume(value)
