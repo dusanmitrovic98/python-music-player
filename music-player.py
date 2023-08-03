@@ -141,3 +141,4 @@ class MusicPlayer(QWidget):
             self.config.write(config_file)
 
     def play_music(self):
+        selected_item = self.musicList.currentItem()
