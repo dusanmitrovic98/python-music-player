@@ -150,3 +150,4 @@ class MusicPlayer(QWidget):
             self.statusLabel.setText("Playing {}".format(file_name))
 
     def pause_or_resume_music(self):
+        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
