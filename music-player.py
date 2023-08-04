@@ -200,3 +200,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.blockSignals(False)
 
     def closeEvent(self, event):
+        self.save_music_list()
