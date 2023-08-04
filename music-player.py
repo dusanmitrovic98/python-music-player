@@ -199,3 +199,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.setValue(position)
         self.positionSlider.blockSignals(False)
 
+    def closeEvent(self, event):
