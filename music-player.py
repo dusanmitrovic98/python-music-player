@@ -206,3 +206,4 @@ class MusicPlayer(QWidget):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     player = MusicPlayer()
+    sys.exit(app.exec_())
