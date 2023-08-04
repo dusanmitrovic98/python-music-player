@@ -202,3 +202,4 @@ class MusicPlayer(QWidget):
     def closeEvent(self, event):
         self.save_music_list()
 
+
