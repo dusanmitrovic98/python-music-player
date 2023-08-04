@@ -198,3 +198,4 @@ class MusicPlayer(QWidget):
         self.positionSlider.blockSignals(True)
         self.positionSlider.setValue(position)
         self.positionSlider.blockSignals(False)
+
