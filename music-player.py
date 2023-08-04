@@ -203,3 +203,4 @@ class MusicPlayer(QWidget):
         self.save_music_list()
 
 
+if __name__ == "__main__":
